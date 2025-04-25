@@ -113,6 +113,9 @@ a:hover {
 }
 
 #name{
-  font-size: 3vw;
+  font-size: 45px;
 }
 
+#role{
+  font-size: 30px;
+}

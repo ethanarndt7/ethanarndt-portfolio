@@ -8,22 +8,28 @@ export default function PortfolioPage() {
     <main className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-white px-6 py-16 font-sans flex flex-col items-center justify-center">
       <div className="max-w-5xl w-full space-y-20">
         {/* Hero Section */}
-        <section className="text-center space-y-4">
-        <h1 className="glitch text-5xl md:text-6xl font-extrabold" id="name">
-        Ethan Arndt
-        </h1>
-        <p className="text-xl text-gray-400 max-w-2xl mx-auto -mt-1">
-      Cybersecurity Student
-      </p>
+       
+        <section className="text-center mb-24">
+  <h1 className="text-6xl md:text-7xl font-extrabold glitch leading-tight tracking-tight text-white mb-2" id="name">
+    Ethan Arndt
+  </h1>
+
+  {/* Neon divider under name */}
+  <div className="w-32 h-[2px] mx-auto mb-3 bg-cyan-400 shadow-[0_0_10px_#00ffe7]" />
+
+  <p className="text-2xl text-cyan-300 font-mono -mt-2" id="role">
+    Cybersecurity Student
+  </p>
+
+  <div className="flex justify-center items-center gap-10 mt-6 text-cyan-400 text-2xl">
+    <a href="mailto:ethanarndt7@outlook.com" className="icon-link hover:text-white"><Mail /></a>
+    <a href="https://github.com/ethanarndt7" target="_blank" className="icon-link hover:text-white"><Github /></a>
+    <a href="https://linkedin.com/in/ethan-aarndt" target="_blank" className="icon-link hover:text-white"><Linkedin /></a>
+  </div>
+</section>
 
 
-      <div className="flex justify-center items-center gap-10 pt-6 text-gray-300 text-xl">
-      <a href="mailto:ethanarndt7@outlook.com" className="hover:text-white transition icon-link"><Mail /></a>
-      <a href="https://github.com/ethanarndt7" target="_blank" className="hover:text-white transition icon-link"><Github /></a>
-      <a href="https://linkedin.com/in/ethan-aarndt" target="_blank" className="hover:text-white transition icon-link"><Linkedin /></a>
-      </div>
 
-        </section>
 
         <hr className="section-divider" />
 
