@@ -41,12 +41,12 @@ export default function PortfolioPage() {
           <p className="text-sm text-gray-400 italic mb-2">May 2025 – Present</p>
           <br></br>
             <h3 className="text-xl font-bold">Coding Instructor, Code Ninjas</h3>
-            <p className="text-sm text-gray-400 italic mb-2">Dec 2022 – Aug 2024</p>
-            <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
-              <li>Taught JavaScript and C# to 100+ students (ages 7–14).</li>
-              <li>Guided projects on cryptography, game dev, and robotics.</li>
-              <li>Provided on-site IT support and workstation management.</li>
-            </ul>
+            <p className="text-sm text-gray-400 italic mb-2">Dec 2022 – Aug 2024</p>  
+            <div className="text-sm text-gray-300 space-y-1 text-center">
+              <p>- Taught JavaScript and C# to 100+ students (ages 7–14).</p>
+              <p>- Guided projects on cryptography, game dev, and robotics.</p>
+              <p>- Provided on-site IT support and workstation management.</p>
+            </div>
           </div>
         </section>
 
