@@ -58,13 +58,11 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold text-center mb-6">Projects</h2>
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-lg bg-gray-900 p-5 border border-gray-700 shadow">
-              <h3 className="text-xl font-semibold">Protocol Analysis with Wireshark</h3>
-              <p className="text-gray-400 text-sm mt-2">Captured and analyzed TCP/IP traffic to detect SYN floods, DoS attempts, and port scans using Wireshark.</p>
+              <h3 className="text-xl font-semibold">ORY Website</h3>
+              <p className="text-gray-400 text-sm mt-2">Developed a sample website for Ory, a South Korean magazine</p>
+              <a href="https://orywebsite.vercel.app" target="_blank" rel="noopener noreferrer">ORY</a>
             </div>
-            <div className="rounded-lg bg-gray-900 p-5 border border-gray-700 shadow">
-              <h3 className="text-xl font-semibold">Log Analytics with Splunk</h3>
-              <p className="text-gray-400 text-sm mt-2">Deployed Splunk Enterprise with automated PowerShell data collection to monitor Windows server activity.</p>
-            </div>
+            <br></br>
             <div className="rounded-lg bg-gray-900 p-5 border border-gray-700 shadow">
               <h3 className="text-xl font-semibold">Mock MySQL Database</h3>
               <p className="text-gray-400 text-sm mt-2">Designed a relational database using MySQL for a mock rental org. Implemented referential integrity and table joins.</p>
