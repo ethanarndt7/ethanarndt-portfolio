@@ -24,7 +24,7 @@ export default function PortfolioPage() {
   <div className="flex justify-center items-center gap-10 mt-6 text-cyan-400 text-2xl">
     <a href="mailto:ethanarndt7@outlook.com" className="icon-link hover:text-white"><Mail /></a>
     <a href="https://github.com/ethanarndt7" target="_blank" className="icon-link hover:text-white"><Github /></a>
-    <a href="https://linkedin.com/in/ethan-aarndt" target="_blank" className="icon-link hover:text-white"><Linkedin /></a>
+    <a href="https://linkedin.com/in/ethan-arndt" target="_blank" className="icon-link hover:text-white"><Linkedin /></a>
   </div>
 </section>
 
