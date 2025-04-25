@@ -81,7 +81,6 @@ export default function PortfolioPage() {
             <h3 className="text-xl font-bold">Penn State University</h3>
             <p className="text-sm text-gray-400">B.S. Cybersecurity Analytics and Operations, Law & Policy Focus – May 2026</p>
             <p className="text-sm text-gray-400">Minor: Security and Risk Analysis | GPA: 3.44</p>
-            <p className="text-sm text-gray-400">Dean’s List: Fall 2022, Spring 2024</p>
           </div>
         </section>
 
@@ -92,28 +91,22 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold text-center mb-6">Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm text-gray-300">
             <div>
-              <h4 className="font-semibold text-white">Languages</h4>
-              <p>Python, Java, JavaScript, C++, C#, R, SQL</p>
+              <h4 className="font-semibold text-white">Languages:</h4>
+              <p>Python, Java, JavaScript, C++, C#, R, SQL, HTML + CSS</p>
             </div>
             <div>
-              <h4 className="font-semibold text-white">Tools</h4>
-              <p>Wireshark, Splunk, OWASP-ZAP, pfSense, Sparta</p>
+              <h4 className="font-semibold text-white">Tools:</h4>
+              <p>Wireshark, Splunk, OWASP-ZAP, pfSense, Sparta, Git, GitHub</p>
             </div>
             <div>
-              <h4 className="font-semibold text-white">Systems</h4>
+              <h4 className="font-semibold text-white">Systems:</h4>
               <p>Linux, Windows, MacOS</p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-white">Web</h4>
-              <p>HTML, CSS, Git, GitHub</p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-white">Concepts</h4>
-              <p>Networking, Threat Analysis, Incident Response</p>
             </div>
           </div>
         </section>
       </div>
+<br></br>
+<br></br>
     </main>
   );
 }

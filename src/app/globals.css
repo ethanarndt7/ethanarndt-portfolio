@@ -17,6 +17,7 @@ h2 {
   display: inline-block;
   margin-bottom: 1rem;
   padding-bottom: 4px;
+  margin-top: -1rem;
 }
 
 /* Neon hover effect for links */
@@ -105,12 +106,13 @@ a:hover {
 }
 
 .section-divider {
-  width: 100%;
+  width: 75%;
   height: 2px;
-  margin: 4rem 0;
+  margin: 4rem auto;
   background: linear-gradient(to right, #00ffe7, #111111, #00ffe7);
   border: none;
   box-shadow: 0 0 6px rgba(0, 255, 231, 0.4);
+
 }
 
 #name{
@@ -119,4 +121,5 @@ a:hover {
 
 #role{
   font-size: 30px;
+  margin-top: -0.5rem;
 }
